@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class DuplicateComponentCleaner : EditorWindow
 {
+    //删除物体上的重复组件
     // 可供勾选的所有组件类型（你可以扩展这个列表）
     private static readonly Type[] AllSupportedTypes = new Type[]
     {
